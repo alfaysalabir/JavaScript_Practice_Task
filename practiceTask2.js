@@ -199,3 +199,9 @@ if (isLoggedIn) {
 else {
     console.log("Please Login")
 }
+
+// Determine whether a number is even or odd using the ternary operator.
+const numberIs = 10;
+const result = (numberIs % 2 === 0) ? "Even" : "Odd";
+
+console.log(result);
