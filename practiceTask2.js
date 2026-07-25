@@ -200,8 +200,16 @@ else {
     console.log("Please Login")
 }
 
+console.log("===================")
+
 // Determine whether a number is even or odd using the ternary operator.
 const numberIs = 10;
 const result = (numberIs % 2 === 0) ? "Even" : "Odd";
 
 console.log(result);
+
+console.log("===================")
+
+// Using age, determine "Adult" or "Minor" using the ternary operator.
+const ageIs = 24;
+ageIs >= 18 ? console.log("Adult") : console.log("Minor");
