@@ -19,3 +19,14 @@ console.log("===================")
 // Guess the result of "5" == 5 and "5" === 5 first, then write code to verify your guess.
 console.log("5" == 5);
 console.log("5" === 5);
+
+console.log("===================")
+
+// Create a variable isRaining (true/false). If it is true, print "Take an umbrella".
+const isRaining = true;
+
+if (isRaining) {
+    console.log("Take an umbrella");
+}
+
+console.log("===================")
