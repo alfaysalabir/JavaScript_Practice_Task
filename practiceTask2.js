@@ -37,3 +37,15 @@ const stock = 0;
 if (stock === 0) {
     console.log("Out of stock");
 }
+
+console.log("===================")
+
+// Take a number variable and check whether it is positive or negative (using if-else).
+const number = -50;
+
+if (number >= 0) {
+    console.log("Positive");
+}
+else {
+    console.log("Negetive");
+}
