@@ -213,3 +213,9 @@ console.log("===================")
 // Using age, determine "Adult" or "Minor" using the ternary operator.
 const ageIs = 24;
 ageIs >= 18 ? console.log("Adult") : console.log("Minor");
+
+console.log("===================")
+
+// If the price is greater than 1000, print "Expensive", otherwise "Affordable" — write this using a ternary operator.
+const price = 1400;
+price >= 1000 ? console.log("Expensive") : console.log("Affordable");
