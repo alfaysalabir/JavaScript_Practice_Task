@@ -13,3 +13,9 @@ console.log(price1 > price2);
 console.log(price1 < price2);
 console.log(price1 >= price2);
 console.log(price1 <= price2);
+
+console.log("===================")
+
+// Guess the result of "5" == 5 and "5" === 5 first, then write code to verify your guess.
+console.log("5" == 5);
+console.log("5" === 5);
