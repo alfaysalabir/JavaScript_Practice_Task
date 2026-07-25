@@ -166,3 +166,20 @@ else if (month >= 10 && month <= 11) {
 else {
     console.log("Invalid month");
 }
+
+console.log("===================")
+
+// Using age and hasID, use nested if-else to check whether someone is eligible to vote.
+const voteAge = 24;
+const hasID = true;
+
+if (age >= 18) {
+    if (hasID) {
+        console.log("Eligible to vote")
+    }
+    else {
+        console.log("Not eligible to vote")
+    }
+}
+
+        console.log("===================")
