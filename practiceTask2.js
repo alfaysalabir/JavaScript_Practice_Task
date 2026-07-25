@@ -57,7 +57,8 @@ const year = 2024;
 
 if (year % 4 === 0) {
     console.log(`${year} is a leap year`);
-} else {
+}
+else {
     console.log(`${year} is not a leap year`);
 }
 
@@ -68,9 +69,19 @@ const speed = 85;
 
 if (speed > 80) {
     console.log("Overspeeding");
-} else {
+}
+else {
     console.log("Normal speed");
 }
 
 console.log("===================")
 
+// Using age and hasTicket, print "Entry allowed" if age is above 18 AND the person has a ticket (use &&).
+const age = 24;
+const hasTicket = true;
+
+if (age > 18 && hasTicket) {
+    console.log("Entry allowed");
+}
+
+console.log("===================")
