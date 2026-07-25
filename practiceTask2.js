@@ -127,3 +127,21 @@ else if (marks >= 50) {
 else {
     console.log("Grade: F");
 }
+
+console.log("===================")
+
+// Using a bmi variable, determine the category — Underweight, Normal, Overweight, Obese (use if-else if).
+const bimi = 50;
+
+if (bimi < 30) {
+    console.log("Underweight");
+}
+else if (bimi < 40) {
+    console.log("Normal");
+}
+else if (bimi < 60) {
+    console.log("Overweight")
+}
+else {
+    console.log("Obese");
+}
