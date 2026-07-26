@@ -294,3 +294,10 @@ while (counts < 10) {
     counts++;
 }
 console.log("After Break");
+
+for (let c = 0; c <= 10; c++) {
+    if (c === 2) {
+        continue;
+    }
+    console.log(c);
+}
