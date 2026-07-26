@@ -251,3 +251,7 @@ while (I < 115) {
 for (let ii = 0; ii <= 10; ii++) {
     console.log(ii);
 }
+
+for (let ii = 0; ii <= 10; ii = ii + 2) {
+    console.log(ii);
+}
