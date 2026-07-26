@@ -236,14 +236,18 @@ for (let i = 0; i < 11; i++) {
     console.log("JavaScript for loop: ", i);
 }
 
-let counts = 500;
+/* let counts = 500;
 while (counts < 515) {
     console.log("JavaScript while loop", counts);
     count++;
-}
+} */
 
 let I = 400;
 while (I < 115) {
-    console.log("JavaScript while loop", I)
-    I++
+    console.log("JavaScript while loop", I);
+    I++;
+}
+
+for (let ii = 0; ii <= 10; ii++) {
+    console.log(ii);
 }
