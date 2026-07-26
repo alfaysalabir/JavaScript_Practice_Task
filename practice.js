@@ -235,3 +235,9 @@ for (let count = 0; count < 10; count++) {
 for (let i = 0; i < 11; i++) {
     console.log("JavaScript for loop: ", i);
 }
+
+let counts = 500;
+while (counts < 903) {
+    console.log("JavaScript while loop", counts);
+    count++;
+}
