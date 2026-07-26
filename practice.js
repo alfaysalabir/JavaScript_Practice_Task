@@ -219,3 +219,11 @@ const valueNumber = 100;
 if (valueNumber) {
     console.log("Number is truthy")
 }
+
+console.log("===================")
+
+/* ********* JavaScript Loop ********* */
+let count = 0;
+count < 10;
+count++;
+console.log("JavaScript Loop");
