@@ -241,3 +241,9 @@ while (counts < 903) {
     console.log("JavaScript while loop", counts);
     count++;
 }
+
+let I = 400;
+while (I < 600) {
+    console.log("JavaScript while loop", I)
+    I++
+}
