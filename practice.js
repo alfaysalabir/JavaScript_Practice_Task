@@ -277,3 +277,10 @@ const tableNum = 3;
 for (let n = 1; n <= 10; n++) {
     console.log(tableNum, "X", n, " = ", n * tableNum);
 }
+
+for (let b = 0; b <= 10; b++) {
+    if (b > 5) {
+        break;
+    }
+    console.log(b);
+}
