@@ -231,3 +231,7 @@ console.log("JavaScript Loop");
 for (let count = 0; count < 10; count++) {
     console.log("JavaScript for loop")
 }
+
+for (let i = 0; i < 11; i++) {
+    console.log("JavaScript for loop: ", i);
+}
