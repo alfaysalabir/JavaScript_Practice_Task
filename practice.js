@@ -287,6 +287,10 @@ for (let b = 0; b <= 10; b++) {
 
 let counts = 0;
 while (counts < 10) {
+    if (counts > 5) {
+        console.log("Break")
+    }
     console.log("Number:", counts);
     counts++;
 }
+console.log("After Break");
