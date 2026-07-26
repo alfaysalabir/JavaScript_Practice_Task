@@ -265,3 +265,9 @@ for (let iii = 0; iii <= 10; iii++) {
 for (let d = 10; d >= 0; d--) {
     console.log(d);
 }
+
+console.log("Count Down Start");
+for (c = 5; c >= 0; c--) {
+    console.log(c);
+}
+console.log("Count Down End");
