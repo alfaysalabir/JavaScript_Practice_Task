@@ -219,3 +219,12 @@ console.log("===================")
 // If the price is greater than 1000, print "Expensive", otherwise "Affordable" — write this using a ternary operator.
 const price = 1400;
 price >= 1000 ? console.log("Expensive") : console.log("Affordable");
+
+console.log("===================")
+
+// Using hasPermission, use the ! operator to print "Access Denied" if permission is not granted.
+const hasPermission = false;
+
+if (!hasPermission) {
+    console.log("Access Denied")
+}
