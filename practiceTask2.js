@@ -237,3 +237,26 @@ const isOnline = false;
 if (!isOnline) {
     console.log("User is offline");
 }
+
+console.log("===================")
+
+// Build a simple discount system: if cart total is above 1000 AND the user is a member, apply a 20% discount; if only above 1000, apply a 10% discount; otherwise, no discount — use logical operators combined with if-else if.
+const cartTotal = 1500;
+const isMember = true;
+
+if (cartTotal > 1000 && isMember) {
+    const discount = cartTotal * 0.20;
+    console.log("20% Discount Applied");
+    console.log("Discount Amount:", discount);
+    console.log("Final Total:", cartTotal - discount);
+} else if (cartTotal > 1000) {
+    const discount = cartTotal * 0.10;
+    console.log("10% Discount Applied");
+    console.log("Discount Amount:", discount);
+    console.log("Final Total:", cartTotal - discount);
+} else {
+    console.log("No Discount");
+    console.log("Final Total:", cartTotal);
+}
+
+    console.log("===================")
