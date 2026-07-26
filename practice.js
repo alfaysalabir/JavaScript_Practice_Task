@@ -275,5 +275,5 @@ console.log("Count Down End");
 const tableNum = 3;
 
 for (let n = 1; n <= 10; n++) {
-    console.log(n, "X", tableNum, " = ", n * tableNum);
+    console.log(tableNum, "X", n, " = ", n * tableNum);
 }
