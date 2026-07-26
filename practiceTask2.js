@@ -259,4 +259,27 @@ if (cartTotal > 1000 && isMember) {
     console.log("Final Total:", cartTotal);
 }
 
-    console.log("===================")
+console.log("===================")
+
+// Build a simple login + role-check system that verifies username/password and shows a different message based on admin/user role — combine everything from this module (comparison, logical operators, if-else, ternary).
+const yourUsername = "admin";
+const yourPassword = "12345";
+const role = "admin"; // "admin" or "user"
+
+if (yourUsername === "admin" && yourPassword === "12345") {
+    console.log("Login Successful");
+
+    if (role === "admin") {
+        console.log("Welcome to the Admin Dashboard");
+    } else if (role === "user") {
+        console.log("Welcome to the User Dashboard");
+    } else {
+        console.log("Unknown Role");
+    }
+
+    const access = (role === "admin") ? "Full Access" : "Limited Access";
+    console.log("Access Level:", access);
+
+} else {
+    console.log("Invalid Username or Password");
+}
