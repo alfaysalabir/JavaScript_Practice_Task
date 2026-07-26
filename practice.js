@@ -255,3 +255,9 @@ for (let ii = 0; ii <= 10; ii++) {
 for (let ii = 0; ii <= 10; ii = ii + 2) {
     console.log(ii);
 }
+
+let sum = 0;
+for (let iii = 0; iii <= 10; iii++) {
+    sum = sum + iii;
+    console.log(iii, sum);
+}
