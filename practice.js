@@ -284,3 +284,9 @@ for (let b = 0; b <= 10; b++) {
     }
     console.log(b);
 }
+
+let counts = 0;
+while (counts < 10) {
+    console.log("Number:", counts);
+    counts++;
+}
