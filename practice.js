@@ -237,13 +237,13 @@ for (let i = 0; i < 11; i++) {
 }
 
 let counts = 500;
-while (counts < 903) {
+while (counts < 515) {
     console.log("JavaScript while loop", counts);
     count++;
 }
 
 let I = 400;
-while (I < 600) {
+while (I < 115) {
     console.log("JavaScript while loop", I)
     I++
 }
