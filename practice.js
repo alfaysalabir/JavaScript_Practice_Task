@@ -261,3 +261,7 @@ for (let iii = 0; iii <= 10; iii++) {
     sum = sum + iii;
     console.log(iii, sum);
 }
+
+for (let d = 10; d >= 0; d--) {
+    console.log(d);
+}
