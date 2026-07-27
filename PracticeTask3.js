@@ -22,5 +22,17 @@ let number = 10;
 
 while (number >= 1) {
     console.log(number);
-    number--
+    number--;
+}
+
+console.log("===================")
+
+// Task 4 — Repeat a Message
+// Using a while loop, print "Loop চলছে" exactly 7 times.
+
+let running = 0;
+
+while (running < 7) {
+    console.log("loop Running");
+    running++;
 }
