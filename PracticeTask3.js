@@ -116,3 +116,27 @@ do {
     i++
 }
 while (i <= 5);
+
+console.log("===================")
+
+// Task 13 — Comparing Loop Types
+// Write the same task — printing numbers 1 to 5 — three times: once using for, once using while, and once using do while.Compare how the code structure differs for each.
+console.log("Foor Loop:");
+for (let f = 1; f <= 5; f++) {
+    console.log(f);
+}
+
+console.log("While Loop:");
+let w = 1;
+while (w <= 5) {
+    console.log(w);
+    w++;
+}
+
+console.log("Do While Loop:");
+let d = 1;
+do {
+    console.log(d);
+    d++
+}
+while (d <= 5);
