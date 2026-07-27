@@ -82,3 +82,14 @@ for (let s = 1; s <= 50; s++) {
     evenSum = evenSum + s
 }
 console.log(evenSum);
+
+console.log("===================")
+
+// Task 10 — Using Break
+// Write a for loop from 1 to 50 that stops completely(break) as soon as it reaches a number greater than 30.
+for (let b = 1; b <= 50; b++) {
+    if (b > 30) {
+        break
+    }
+    console.log(b);
+}
