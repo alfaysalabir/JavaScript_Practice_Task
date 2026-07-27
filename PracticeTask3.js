@@ -64,3 +64,12 @@ const table = 7;
 for (let num = 1; num <= 10; num++) {
     console.log(table, "X", num, " = ", num * table);
 }
+
+console.log("===================")
+
+// Task 8 — Count Down from 20
+// Write a for loop that counts down from 20 to 1.
+for (let count = 20; count >= 1; count--) {
+    console.log(count);
+
+}
