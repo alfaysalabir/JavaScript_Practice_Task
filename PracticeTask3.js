@@ -44,3 +44,13 @@ console.log("===================")
 for (let even = 2; even <= 30; even = even + 2) {
     console.log(even);
 }
+
+console.log("===================")
+
+// Task 6 — Sum of Numbers
+// Write a for loop that calculates the sum of numbers from 1 to 20 and prints the result.
+let sum = 0;
+for (let s = 1; s <= 20; s++) {
+    sum = sum + s
+}
+console.log(sum);
