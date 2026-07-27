@@ -71,5 +71,14 @@ console.log("===================")
 // Write a for loop that counts down from 20 to 1.
 for (let count = 20; count >= 1; count--) {
     console.log(count);
-
 }
+
+console.log("===================")
+
+// Task 9 — Sum of Even Numbers
+// Write a for loop that calculates the sum of all even numbers from 2 to 50.
+let evenSum = 0;
+for (let s = 1; s <= 50; s++) {
+    evenSum = evenSum + s
+}
+console.log(evenSum);
