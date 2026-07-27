@@ -13,3 +13,14 @@ console.log("===================")
 for (let n = 1; n <= 10; n++) {
     console.log(n);
 }
+
+console.log("===================")
+
+// Task 3 — Countdown with While Loop
+// Write a while loop that prints numbers from 10 down to 1.
+let number = 10;
+
+while (number >= 1) {
+    console.log(number);
+    number--
+}
