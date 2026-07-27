@@ -93,3 +93,14 @@ for (let b = 1; b <= 50; b++) {
     }
     console.log(b);
 }
+
+console.log("===================")
+
+// Task 11 — Using Continue
+// Write a for loop from 1 to 20 that skips(continue) any number divisible by 4.
+for (let c = 1; c <= 20; c++) {
+    if (c === 4) {
+        continue;
+    }
+    console.log(c);
+}
