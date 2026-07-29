@@ -308,3 +308,20 @@ do {
     d++
 }
 while (d < 5)
+
+    console.log("===================")
+
+/* ********* JavaScript Array ********* */
+const fruits = ["Mango", "Banana", "Lychee", "Apple"];
+const totalFruits = fruits.length;
+console.log(totalFruits);
+console.log(fruits);
+
+const players = ["Musfiq", "Riyad", "Shoikot"];
+console.log(players.length);
+const player1 = players[0];
+console.log(player1);
+console.log(players[2]);
+console.log(players[players.length -1]);
+players[1] = "Mustafiz";
+console.log(players);
