@@ -325,3 +325,9 @@ console.log(players[2]);
 console.log(players[players.length -1]);
 players[1] = "Mustafiz";
 console.log(players);
+
+/* ********* JavaScript Push ********* */
+const numberes = [10, 20, 30, 40, 50];
+console.log(numberes);
+numberes.push(60, 70, 80);
+console.log(numberes);
