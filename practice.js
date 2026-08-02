@@ -337,3 +337,6 @@ const amimal = ["Cow", "Monkey", "Elephent", "Bird"];
 console.log(amimal);
 amimal.pop();
 console.log(amimal);
+const firstAnimal = amimal.shift();
+const lastAnimal = amimal.pop();
+console.log(firstAnimal, lastAnimal);
