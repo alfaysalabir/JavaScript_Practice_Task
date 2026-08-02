@@ -340,3 +340,10 @@ console.log(amimal);
 const firstAnimal = amimal.shift();
 const lastAnimal = amimal.pop();
 console.log(firstAnimal, lastAnimal);
+
+/* ********* JavaScript Shift Unshift ********* */
+const items = ["Mouse", "Keyboard", "Monitor", "SSD"];
+items.shift();
+console.log(items);
+items.unshift("Printer");
+console.log(items);
