@@ -326,13 +326,14 @@ console.log(players[players.length -1]);
 players[1] = "Mustafiz";
 console.log(players);
 
-/* ********* JavaScript Push ********* */
+console.log("===================")
+
+/* ********* JavaScript Push Pop ********* */
 const numberes = [10, 20, 30, 40, 50];
 console.log(numberes);
 numberes.push(60, 70, 80);
 console.log(numberes);
 
-/* ********* JavaScript Pop ********* */
 const amimal = ["Cow", "Monkey", "Elephent", "Bird"];
 console.log(amimal);
 amimal.pop();
@@ -341,9 +342,32 @@ const firstAnimal = amimal.shift();
 const lastAnimal = amimal.pop();
 console.log(firstAnimal, lastAnimal);
 
+console.log("===================")
+
 /* ********* JavaScript Shift Unshift ********* */
 const items = ["Mouse", "Keyboard", "Monitor", "SSD"];
 items.shift();
 console.log(items);
 items.unshift("Printer");
 console.log(items);
+
+console.log("===================")
+
+/* ********* JavaScript Includes ********* */
+const includeNum = [10, 20, 30, 40, 50];
+const includeNum1 = [60, 70, 80, 90, 100];
+const isInclude = includeNum.includes(30);
+console.log(isInclude);
+
+const includeNumber = includeNum.concat(includeNum1);
+console.log(includeNumber);
+
+const numbs = [10, 20, 30, 40, 50];
+const isNumbInclude = numbs.join(",");
+console.log(isNumbInclude);
+
+const position = numbs.indexOf(30);
+console.log(position);
+
+console.log(typeof numbs);
+console.log(Array.isArray(numbs));
