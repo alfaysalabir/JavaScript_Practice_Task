@@ -371,3 +371,7 @@ console.log(position);
 
 console.log(typeof numbs);
 console.log(Array.isArray(numbs));
+
+const nums = [10, 20, 30, 40, 50];
+nums.slice(1, 4);
+console.log(nums);
