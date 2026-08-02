@@ -331,3 +331,9 @@ const numberes = [10, 20, 30, 40, 50];
 console.log(numberes);
 numberes.push(60, 70, 80);
 console.log(numberes);
+
+/* ********* JavaScript Pop ********* */
+const amimal = ["Cow", "Monkey", "Elephent", "Bird"];
+console.log(amimal);
+amimal.pop();
+console.log(amimal);
