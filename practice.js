@@ -375,3 +375,11 @@ console.log(Array.isArray(numbs));
 const nums = [10, 20, 30, 40, 50];
 nums.slice(1, 4);
 console.log(nums);
+
+console.log("===================")
+
+/* ********* JavaScript For Of Loop ********* */
+const forNum = [10, 20, 30, 40, 50];
+for (const num of forNum) {
+    console.log(num);
+}
