@@ -383,3 +383,17 @@ const forNum = [10, 20, 30, 40, 50];
 for (const num of forNum) {
     console.log(num);
 }
+
+console.log("===================")
+
+/* ********* JavaScript String Comparison */
+const str1 = "Hello";
+const str2 = "hello";
+console.log(str1.toLowerCase());
+
+if (str1.toLowerCase() === str2.toLowerCase()) {
+    console.log("Strings are equal");
+}
+else {
+    console.log("Strings are not equal");
+}
