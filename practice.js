@@ -397,3 +397,51 @@ if (str1.toLowerCase() === str2.toLowerCase()) {
 else {
     console.log("Strings are not equal");
 }
+
+/* ********* JavaScript String Trim ********* */
+
+const userEmail = " user@gmail.com ";
+const userDatabaseEmail = "user@gmail.com";
+
+if (userEmail.trim().toLowerCase() === userDatabaseEmail.trim().toLowerCase()) {
+    console.log("Email is valid");
+}
+else {
+    console.log("Email is not valid");
+}
+
+console.log("===================")
+
+/* ********* JavaScript String Includes ********* */
+const userMail = "user@email.com";
+if (userMail.includes(".Com")) {
+    console.log("Email is valid");
+}
+else {
+    console.log("Email is not valid");
+}
+
+/* ********* JavaScript File Name Check ********* */
+const fileName = "image.png";
+console.log(fileName.endsWith(".png"));
+
+const userName = "@username";
+console.log(userName.startsWith("@"));
+
+
+const myFullName = "My name is unnamed";
+console.log(myFullName.slice(3, 8));
+
+/* ********* JavaScript Concatenation ********* */
+const firstName = "John";
+const lastName = "Doe";
+
+console.log(firstName.concat(" ", lastName));
+
+/* ********* JavaScript Split ********* */
+const company = "Google Microsoft Apple Amazon";
+const companys = company.split("");
+console.log(companys);
+
+const joinComp = companys.join(" ");
+console.log(joinComp);
